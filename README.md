@@ -3,7 +3,7 @@ Um compiladao de coisas que fiz.
 
 esse website vai juntar todos os meus trabalhos peditos pelas minhas apostilas, dado pelo curso tecnico de desenvolvimento de sistemas PROZ educaçao
 
-sao separados em 8 modulos
+sao separados em 4 modulos
 
 PROGRAMADOR DE SISTEMAS
 -tecnologia da informaçao
