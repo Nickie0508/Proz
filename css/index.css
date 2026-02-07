@@ -10,6 +10,7 @@ body {
     min-height: 100vh;
     background: linear-gradient(135deg, #6a0dad, #ff8c00);
     font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 /* Cabeçao */
@@ -63,4 +64,45 @@ footer {
 #modulos ul > li {
     margin-left: 20px;
     align-items: center;
+}
+.modulos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.modulo {
+    text-decoration: none;
+    color: inherit;
+    background: #1e1e1e;
+    border-radius: 12px;
+    padding: 20px;
+    aspect-ratio: 1 / 1; /* deixa quadrado */
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    align-items: flex-start;
+}
+
+.modulo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.modulo ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.modulo > ul > li:first-child {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.modulo ul ul {
+    padding-left: 15px;
+    font-size: 0.9rem;
+    opacity: 0.9;
 }
