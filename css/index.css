@@ -73,21 +73,10 @@ footer {
     margin: 40px auto;
 }
 
-.modulo {
-    text-decoration: none;
-    color: inherit;
-    background: #1e1e1e;
-    border-radius: 12px;
-    padding: 20px;
-    aspect-ratio: 1 / 1; /* deixa quadrado */
-    transition: transform 0.2s, box-shadow 0.2s;
-    display: flex;
-    align-items: flex-start;
-}
 
 .modulo:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    box-shadow: 0 10px 25px rgba(190, 127, 127, 0.3);
     cursor: pointer;
 }
 
